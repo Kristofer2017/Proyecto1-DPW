@@ -1,0 +1,15 @@
+.formularioEjemplo {
+    background-color: #c4dff7;
+    width: 32em;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 4em;
+}
+
+.formularioEjemplo td {
+    padding: 5px;
+}
+
+.btnEnviarEj {
+    margin: 10px auto 2px;
+}
