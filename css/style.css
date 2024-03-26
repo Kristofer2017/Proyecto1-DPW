@@ -14,3 +14,84 @@
     margin: 10px auto 2px;
 }
 
+/* Formulario 5 */
+
+.formulario5 {
+    background: #CEF6EC;
+    width: 29em;
+    border-radius: 7px;
+}
+
+.formulario5 form {
+    padding: 17px 20px;
+    margin-bottom: 3em;
+}
+
+.formulario5 td {
+    padding: 5px;
+}
+
+/* Formulario 2 */
+
+.formulario2 {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario2 .form-group {
+    margin-bottom: 20px;
+}
+
+.formulario2 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario2
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario2 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.formulario2 input[type="submit"] {
+    background-color: #ff6633;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario2 input[type="submit"]:hover {
+    background-color: #ff4d00;
+}
+
+.imagenesForm2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.imagenesForm2 img {
+    padding: 7px;
+}
