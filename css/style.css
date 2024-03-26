@@ -95,3 +95,31 @@ select {
 .imagenesForm2 img {
     padding: 7px;
 }
+
+/* CSS FORMULARIO 4 */
+
+.file-label{
+    background-color: rgb(105, 105, 105);
+    color: white;
+    padding: 1rem;
+    font-family: sans-serif;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.file-perfil{
+    background-color: #0b5ed7;
+    color: white;
+    padding: 1rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.icono{
+    width: 25px;
+    filter: invert();
+}
+.alerta{
+    background-color: #c9e1f6;
+}

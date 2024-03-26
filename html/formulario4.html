@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulario 4</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body style="background-color: #dfeffd;">
     <nav class="navbar bg-dark" data-bs-theme="dark">
         <div class="container">
@@ -21,7 +27,188 @@
             </ul>
         </div>
     </nav>
+    <div>
+        <form action="#" method="POST">
 
-    
+            <div class="container mt-5 p-5">
+                <div>
+                    <h1 class="text-center">Certificación de registro de título de educación media</h1>
+                </div>
+                <hr>
+                <h2 class="text-center">INRESO DE SOLICITUDES</h2>
+                <p class="text-center">Solicitud #: 1917403</p>
+                <hr>
+                <div class="alert alert-primary pb-0" role="alert">
+                    <p class="text-center">Datos personales</p>
+                </div>
+                <div class="mb-3">
+                    <label for="">Primer nombre (según título):</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="mb-3">
+                    <label for="">Segundo nombre (según título):</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="mb-3">
+                    <label for="">Primer apellido (según título):</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="mb-3">
+                    <label for="">Segundo apellido (según título):</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="mb-3">
+                    <label for="">Año de estudio:</label>
+                    <input class="form-control" type="text">
+                </div>
+                <hr>
+                <div class="mb-3">
+                    <label for="">tipo documento (opcional):</label><br>
+                    <select class="form-select">
+                        <option selected>Seleccionar un tipo</option>
+                        <option value="1">DUI</option>
+                        <option value="2">Pasaporte</option>
+                        <option value="3">Carnet de menoridad</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="">Número de documento: (opcional)</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="form-input">
+                    <p>Cargar copia de documento que contenga ambos lados del documento (Opcional)</p>
+                    <label for="file-btn1" class="file-label">
+                        <img src="../icons/upload.svg" class="icono mr-2" alt="">Seleccionar archivo</label>
+                    <input type="file" name="" id="file-btn1" hidden>
+                    <label for="file-perfil1" class="file-perfil">
+                        <img src="../icons/upload.svg" class="icono mr-2" alt="">Seleccionar desde mi perfil
+                    </label>
+                    <input type="file" id="file-perfil1" hidden>
+                </div>
+                <div class="form-input mt-5 mb-5">
+                    <p class="m-0">Archivo en formato pdf</p>
+                    <p>Otros documentos (Opcional)</p>
+                    <label for="file-btn1" class="file-label">
+                        <img src="../icons/upload.svg" class="icono mr-2" alt="">Seleccionar archivo</label>
+                    <input type="file" name="" id="file-btn1" hidden>
+                    <label for="file-perfil1" class="file-perfil">
+                        <img src="../icons/upload.svg" class="icono mr-2" alt="">Seleccionar desde mi perfil
+                    </label>
+                    <input type="file" id="file-perfil1" hidden>
+                </div>
+                <div>
+                    <p>Puede subir cualquier otro documento que ayude a validar su identidad</p>
+                    <div class="mb-3">
+                        <label for="">Modalidad:</label>
+                        <select class="form-select" type="text">
+                            <option selected>Sleccionar un modalidad</option>
+                            <option value="1">Distancia</option>
+                            <option value="2">Nocturna</option>
+                            <option value="3">Semipresencial</option>
+                            <option value="4">Presencial</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Estudios realizados:</label>
+                        <select class="form-select" type="text">
+                            <option value="" selected>Selecciona una opción</option>
+                            <option value="1">General</option>
+                            <option value="2">Técnico</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Seleccione el departamento y municipio donde realizó sus estudios</label>
+                        <select class="form-select mb-3" type="text">
+                            <option value="">Seleccione un departamento...</option>
+                            <option value="1">Ahuachapán</option>
+                            <option value="2">Santa Ana</option>
+                            <option value="3">Sonsonate</option>
+                            <option value="4">La Libertad</option>
+                            <option value="5">Chalatenango</option>
+                            <option value="6">Cuscatlán</option>
+                            <option value="7">San Salvador</option>
+                            <option value="8">La Paz</option>
+                            <option value="9">Cabañas</option>
+                            <option value="10">San Vicente</option>
+                            <option value="11">Morazán</option>
+                            <option value="12">San Miguel</option>
+                            <option value="13">Usulután</option>
+                        </select>
+                        <select class="form-select" type="text">
+                            <option value="">Seleccione un municipio...</option>
+                            <option value="1">Aguilares</option>
+                            <option value="2">Apopa</option>
+                            <option value="3">Ayutuxtepeque</option>
+                            <option value="4">Ciudad Delgado</option>
+                            <option value="5">Cuscatancingo</option>
+                            <option value="6">El Paisnal</option>
+                            <option value="7">Guazapa</option>
+                            <option value="8">Ilopango</option>
+                            <option value="9">Mejicanos</option>
+                            <option value="10">Mejicanos</option>
+                            <option value="11">Soyapango</option>
+                            <option value="12">San Martín</option>
+                            <option value="13">San Salvador</option>
+                            <option value="14">Santo Tomás</option>
+                          </select>
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Seleccione institucion donde curso el bachillerato</label>
+                        <select name="institucion" class="form-select" id="institucion">
+                            <option value="">Seleccione una institución...</option>
+                            <option value="1">Instituto Nacional Francisco Menéndez (INFRAMEN)</option>
+                            <option value="2">Instituto Nacional de San Salvador (INSS)</option>
+                            <option value="3">Instituto Nacional Dr. Rafael Antonio Valdivieso (INVAR)</option>
+                            <option value="4">Complejo Educativo Dr. Carlos Arturo Castañeda (CECAC)</option>
+                            <option value="5">Instituto Nacional Isidro Menéndez (INIM)</option>
+                            <option value="6">Instituto Nacional de Oriente (INO)</option>
+                            <option value="7">Instituto Nacional de Occidente (INOCC)</option>
+                            <option value="8">Instituto Nacional de Ciudad Barrios (INCIBA)</option>
+                            <option value="9">Instituto Nacional de Alegría (INSA)</option>
+                            <option value="10">Instituto Nacional de Usulután (INU)</option>
+                            <option value="11">Instituto Nacional de Zacatecoluca (INZA)</option>
+                            <option value="12">Instituto Nacional de Ahuachapán (INA)</option>
+                            <option value="13">Instituto Nacional de Santa Ana (INSA)</option>
+                            <option value="14">Instituto Nacional de San Miguel (INSM)</option>
+                            <option value="15">Instituto Nacional de Chalatenango (INCH)</option>
+                          </select>
+                    </div>
+                    <hr>
+                    <div>
+                        <h1>Información del solicitante</h1>
+                        <div class="mb-3">
+                            <label for="">Nombre del solicitante:</label>
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Correo del solicitante:</label>
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="alerta rounded-4 p-3">
+                            <p>
+                                <strong>Estimado ciudadano</strong>
+                                <br>
+                                *Si la certificación la necesita para trámites en el exterior, 
+                                por favor preséntese a nuestras oficinas para darle seguimiento 
+                                al proceso de auténtica. Edificio A3, 1er. Nivel, Plan Maestro, 
+                                Centro de Gobierno, Alameda Juan Pablo II y Calle Guadalupe, San 
+                                Salvador, El Salvador.
+                            </p>
+                        </div>  
+                        <div class="text-center m-5">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                            <button class="btn btn-secondary" type="reset">Limpiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
+    </div>
+
 </body>
+
 </html>
