@@ -14,6 +14,86 @@
     margin: 10px auto 2px;
 }
 
+/* Formulario 1 */
+
+.formulario1 {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 15px 20px;
+    width: 30em;
+    margin: auto;
+}
+
+.formulario1 form, table {
+    width: 100%;
+}
+
+.formulario1 td {
+    padding: 5px;
+}
+
+.formulario1 span {
+    color: #df7171;
+}
+
+.formulario1 input[type="email"],
+.formulario1 input[type="text"],
+.formulario1 input[type="password"]
+{
+    background-color: #131212;
+    color: #fff;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.formulario1 select {
+    background-color: #131212;
+    color: hsl(0, 0%, 67%);
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.formulario1 input[type="checkbox"] {
+    background-color: #2c2c2c;
+    width: 20px;
+    height: 20px;
+}
+
+.btnContinuarDiscord {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: rgba(102, 112, 247, 0.993);
+    color: white;
+    border-radius: 3px;
+    margin: 15px 0 10px;
+}
+
+.formulario1 .small-letters {
+    color: #919191;
+    display: inline;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: middle;
+}
+.formulario1 .small-letters span {
+    color: #31aef7c4;
+}
+
+.enlaceCuentaExistente {
+    text-decoration: none;
+    color: #31aef7;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.enlaceCuentaExistente:hover {
+    text-decoration: underline;
+}
+
+
 /* Formulario 5 */
 
 .formulario5 {
@@ -52,12 +132,11 @@
     margin-bottom: 5px;
 }
 
-.formulario2
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-select {
+.formulario2 input[type="text"],
+.formulario2 input[type="email"],
+.formulario2 input[type="tel"],
+.formulario2 input[type="number"],
+.formulario2 select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
