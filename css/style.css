@@ -22,6 +22,8 @@
     padding: 15px 20px;
     width: 30em;
     margin: auto;
+    border-radius: 5px;
+    margin-bottom: 35px;
 }
 
 .formulario1 form, table {
@@ -86,30 +88,13 @@
     font-size: 15px;
     display: inline-block;
     padding-top: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
 }
 
 .enlaceCuentaExistente:hover {
     text-decoration: underline;
 }
 
-
-/* Formulario 5 */
-
-.formulario5 {
-    background: #CEF6EC;
-    width: 29em;
-    border-radius: 7px;
-}
-
-.formulario5 form {
-    padding: 17px 20px;
-    margin-bottom: 3em;
-}
-
-.formulario5 td {
-    padding: 5px;
-}
 
 /* Formulario 2 */
 
@@ -175,7 +160,19 @@
     padding: 7px;
 }
 
-/* CSS FORMULARIO 4 */
+/* Formulario 3 */
+
+.encabezado{
+    background-image: url(../imagenes/LlaveDelSaber.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 50vh;
+}
+
+
+/* Formulario 4 */
 
 .file-label{
     background-color: rgb(105, 105, 105);
@@ -201,4 +198,21 @@
 }
 .alerta{
     background-color: #c9e1f6;
+}
+
+/* Formulario 5 */
+
+.formulario5 {
+    background: #CEF6EC;
+    width: 29em;
+    border-radius: 7px;
+}
+
+.formulario5 form {
+    padding: 17px 20px;
+    margin-bottom: 3em;
+}
+
+.formulario5 td {
+    padding: 5px;
 }
