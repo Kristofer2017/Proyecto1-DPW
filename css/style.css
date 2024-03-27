@@ -216,3 +216,12 @@
 .formulario5 td {
     padding: 5px;
 }
+
+footer {
+    background-color: #131212;
+    color: #ddd;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
